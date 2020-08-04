@@ -1,0 +1,1325 @@
+## 0.1.0 (August 04, 2020)
+  - Merge pull request #161 from laravel-enso/hotfix/fixesDeletedRoute
+  - fixed resetPassword; added risky
+  - adds missing route.
+  - Merge pull request #160 from laravel-enso/bugfix/postcodeUpgrade
+  - Apply fixes from StyleCI
+  - fix
+  - Merge pull request #159 from laravel-enso/feature/addsIsShippingAndBillingToAddresses
+  - adds post migration
+  - adds force to postcode seeder
+  - wip
+  - Merge pull request #158 from laravel-enso/feature/addsPostcodeTable
+  - adds street to postcode
+  - Merge pull request #157 from laravel-enso/hotfix/posterUpgrade
+  - fixes poster upgrade command
+  - Merge pull request #156 from laravel-enso/feature/addsPostcodeUpgrade
+  - adds postcode upgrade
+  - Merge pull request #155 from laravel-enso/feature/addPostcode
+  - merge master
+  - adds postcode permission
+  - Merge pull request #153 from laravel-enso/feature/addsSession
+  - Apply fixes from StyleCI
+  - Merge branch 'master' into feature/addsSession
+  - Update UserSessionPermissions.php
+  - Update UserTokenPermissions.php
+  - Merge pull request #154 from laravel-enso/featue/addOptionsPermission
+  - added permission migration
+  - Merge pull request #151 from laravel-enso/feature/addsImportPermission
+  - Apply fixes from StyleCI
+  - - adds sessions (index&delete) - adds tokens (create & index & delete)
+  - adds role filter in users
+  - Apply fixes from StyleCI
+  - Merge branch 'master' into feature/addsImportPermission
+  - Merge pull request #152 from laravel-enso/feature/renamesContorlPanelPermissions
+  - Apply fixes from StyleCI
+  - - adds core-api middleware group - adds upgrade to rename permissions
+  - Apply fixes from StyleCI
+  - adds import.show permission
+  - updates address permssion
+  - Apply fixes from StyleCI
+  - removed `App` namespace segment
+  - Merge pull request #149 from laravel-enso/hotfix/posterMorphKey
+  - updates upgrade command
+  - adds  upgrade command
+  - Merge pull request #148 from laravel-enso/feature/resetPassword
+  - Apply fixes from StyleCI
+  - adds reset password for supervisor & admins
+  - fixes reset password
+  - Merge pull request #146 from laravel-enso/hotfix/fixesUpgradeInProductionMode
+  - Apply fixes from StyleCI
+  - changes parameters to array
+  - Merge pull request #145 from laravel-enso/hotfix/fixesUpgradeInProductionMode
+  - fixes seed when app is in production mode
+  - Apply fixes from StyleCI
+  - checks package is installed before upgrade
+  - fixes migration
+  - Merge branch 'master' of github.com:laravel-enso/core
+  - fixes
+  - Apply fixes from StyleCI
+  - adds rename migration upgrade
+  - Merge pull request #144 from laravel-enso/upgrade/obsToNotes
+  - Apply fixes from StyleCI
+  - renames obs to notes
+  - - merge with master
+  - - removes the App folder / namespace - adds guarded = ['id'] to model - changes `web` middleware to `api` - adds type to props in structure migrations - updates helpers from classes to services - updates relations - removes activity-log, tutorials, how-to dependencies.
+  - Merge pull request #141 from laravel-enso/hotfix/passwordValidator
+  - Merge pull request #140 from laravel-enso/upgrade/loginController
+  - fixes ValidatePasswordRequest & ForgotPasswordController
+  - updates LoginController
+  - merge master
+  - revert
+  - adds route & refactor control panel
+  - fixes
+  - fixes styleci
+  - adds api group & monitoring user
+  - adds tests
+  - fixes styleci
+  - rename is-webview to webview
+  - adds authorization key to cookie
+  - adds new mapMorph
+  - adds EnsureFrontendRequestsAreStateful for webview
+  - adds localize upgrade
+  - adds prducts upgrade
+  - refactor services into controller
+  - fixes style
+  - adds new tests
+  - improved logic
+  - fixes style
+  - fixes styleci
+  - fixes
+  - adds sanctum
+  - adds city columns as nullable for the addresses upgrade
+  - Apply fixes from StyleCI
+  - updated upgrade process
+  - adds upgrade for missing addresses permissions
+  - Apply fixes from StyleCI
+  - fixes Locality import
+  - Merge pull request #138 from laravel-enso/feature/addressesUpgrade
+  - fixed missing import
+  - fixed seeder check
+  - Apply fixes from StyleCI
+  - updated the counties seeder
+  - removes avatar label in table
+  - Apply fixes from StyleCI
+  - added missing interface for the localities upgrade; added upgrade for obs to notes and postal_area to postcode
+  - Merge branch 'feature/addressesUpgrade' of https://github.com/laravel-enso/core into feature/addressesUpgrade
+  - removed leftover log
+  - Apply fixes from StyleCI
+  - further updates
+  - Apply fixes from StyleCI
+  - stable
+  - Apply fixes from StyleCI
+  - extracted common logic
+  - added Addresses migrator
+  - Apply fixes from StyleCI
+  - wip; base adddresses upgrade needed
+  - fixes users delete
+  - fixes upgrade command
+  - Merge pull request #137 from laravel-enso/feature/taggableUsers
+  - adds upgrade command for taggable users permission
+  - fixes upgrade command
+  - updates email theme
+  - Merge pull request #136 from laravel-enso/feature/usersDelete
+  - adds the ability to delete the attached person when deleting a user
+  - Merge pull request #135 from laravel-enso/feature/morphKeyUpgrade
+  - Apply fixes from StyleCI
+  - Merge branch 'feature/morphKeyUpgrade' of https://github.com/laravel-enso/core into feature/morphKeyUpgrade
+  - other upgrade & refactor
+  - Merge pull request #134 from laravel-enso/feature/morphKeyUpgrade
+  - Apply fixes from StyleCI
+  - added upgrade for morphMap usage
+  - wip
+  - fixed typo in the upgrade commmand
+  - Merge pull request #133 from laravel-enso/hotfix/notifications
+  - fixes notifications, adds CascadesMorphMap trait in User for handling polymorphic relationships
+  - Apply fixes from StyleCI
+  - added files index upgrade command
+  - renamed the resource publishing tag from `core-images` to `core-assets`
+  - Merge pull request #131 from laravel-enso/feature/resetStorageUpdate
+  - updated the command; moved images from the ui
+  - the reset command also handles the creation of missing storage folders
+  - adds active and role filters to users table
+  - fixes categories upgrade
+  - fixes user conflict exception
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - adds categories upgrade
+  - adds categories upgrade
+  - removes deprecated tests
+  - fixes preferences.json -> renames expandedMenu to expandedSidebar
+  - uses a user resource in the user options controller
+  - fixes namespace in avatars upgrade
+  - Merge pull request #130 from laravel-enso/hotfix/upgrade
+  - adds unique constraint for user_id column in avatars table
+  - adjusts user group form; updates the way avatar is shown in users table
+  - adds role relation to user group
+  - renamed app to App
+  - makes last sentry event id available only in production
+  - add support for user feedback on exceptions
+  - updates app state for new sentry frontend; refactors config to Config::get in app state
+  - adds back action logs index upgrade
+  - adds User & Grup resources; refactors AppState to return resources
+  - Merge pull request #129 from laravel-enso/feature/addCompanyWebsiteAttribute
+  - Merge pull request #128 from laravel-enso/refactor/jsonParserUpdate
+  - added new attribute
+  - update due to JsonParser to JsonReader refactor
+  - extracts upgrade logic in its own package
+  - drops Types from migrations; adds DB upgrade for permissions
+  - updates failed jobs id to bigIncrements
+  - bump version
+  - removes jessengers/date
+  - updates for laravel 7
+  - fixes exception namespace
+  - Adds index to action logs table - upgrade command - adds protected indexExists helper in DatabaseUpgrade
+  - fixes namespace in currencies upgrade
+  - refactors Enso's Login event
+  - adds missing import
+  - Merge pull request #127 from robbykrlos/master
+  - Spa and AppState flexibility #272 - made AppState private methods protected. - Spa __invoke method will not instantiate with "new AppState" but with App::make
+  - adds currencies permission in upgrade command
+  - Apply fixes from StyleCI
+  - added migrations for morphable models` namespaces
+  - fixes AppUpdate
+  - formats inspiring
+  - Merge pull request #125 from laravel-enso/hotfix/namespace
+  - fixes namespaces
+  - Merge pull request #124 from raftx24/upgrade/addsUpdrades
+  - fixes imports
+  - adds upgrade
+  - fixes deps
+  - Merge pull request #123 from laravel-enso/feature/rolesUpgrade
+  - Update RolesUpgrade.php
+  - improves readability
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - updates composer json
+  - adds roles upgrade command
+  - Apply fixes from StyleCI
+  - fixes exception
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - - renames namespaces from app to App - refactors to short closures - refactors collect into Collection - refactors exceptions - renames user policy to drop prefix - adds typed properties in services, where possible - adds return types in service methods - upgrades enums for the latest version - uses permission Types enum in structure migration - splits route file - adds missing facade imports - refactors service provider tag publishing - refactors services and responses
+  - Apply fixes from StyleCI
+  - removed deprecated upgrade commands; added upgrade command for currencies
+  - Merge pull request #121 from laravel-enso/refactor/insightsUpdates
+  - Apply fixes from StyleCI
+  - split routes
+  - Merge pull request #120 from laravel-enso/refactor/insightsUpdates
+  - Apply fixes from StyleCI
+  - removed local delete impl - to be handled by the AvoidsDeletionConflicts trait
+  - Update ProfileBuilder.php
+  - Apply fixes from StyleCI
+  - used Decimals for division
+  - Update ValidateUserRequest.php
+  - insights
+  - adds missing doctype tag to the production stub; fixes tiny mce issue
+  - renames reset storage signature
+  - adds rejected imports folders to reset-storage; updates command signature to enso:storage:reset
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - adds a reset-storage command for clearing the storage on php artisan migrate:fresh
+  - changed AppUpdated event tooltip message
+  - resolves company from SC in owner static helper
+  - adds OWNER_COMPANY_ID, SHOW_QUOTE, EXTENDED_DOCUMENT_TITLE env variables that are read by enso.confg; adds ownerCompanyId config key
+  - removes deprecated images
+  - Merge pull request #117 from laravel-enso/feature/appUpdatedNotification
+  - Apply fixes from StyleCI
+  - Merge branch 'feature/appUpdatedNotification' of https://github.com/laravel-enso/core into feature/appUpdatedNotification
+  - small refactor
+  - Apply fixes from StyleCI
+  - refactored AppState websockets
+  - stable
+  - Apply fixes from StyleCI
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - adds tutorial upgrade
+  - Apply fixes from StyleCI
+  - updates themes.php
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - fixes calendar upgrade; adds countries upgrade
+  - Apply fixes from StyleCI
+  - improves local state handling: removes config options; adds bind-able service;
+  - update deps
+  - updates files dep
+  - updates activity log dep
+  - updates stub extension
+  - Merge pull request #116 from raftx24/upgrade_calendar_db
+  - fix styleci
+  - add calendar upgrades
+  - Merge branch 'master' of github.com:laravel-enso/core
+  - added images and stubs into core for VueCli build flow
+  - Merge pull request #115 from chimpanze/patch-1
+  - Update ProfileBuilder.php for PHP 7.2
+  - Apply fixes from StyleCI
+  - removed comments
+  - Apply fixes from StyleCI
+  - updated upgrade command to handle optional permission
+  - Apply fixes from StyleCI
+  - updated user seeder, removed event flushing
+  - Merge pull request #114 from laravel-enso/feature/calendarUpgrade
+  - added rename for pivot
+  - fixed operations order
+  - renamed tables and columns
+  - completed fix
+  - fixes previous changes; wip
+  - Apply fixes from StyleCI
+  - uses existing info to migrate start/end time
+  - Apply fixes from StyleCI
+  - added heavy migrator
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - builds dynamically the broadcast private channel
+  - cleaned up the readme
+  - upgrade calendar
+  - updates config.php
+  - removes calendar as dependency, should be added to the local composer.json
+  - Merge pull request #111 from laravel-enso/hotfix/seeders
+  - Merge pull request #110 from laravel-enso/feature/teams
+  - fixes user seeder
+  - adds Activatable contract in user model; removes cli as dep
+  - adds teams relationship
+  - enables company indexes upgrade
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - updates laravel req
+  - fixes tables dependency
+  - fixes helpers dep
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - updates dependencies; refactors table for v3; consolidates user and user group validators; renames updates `isDisabled` to `isInactive`; adds the new `dateTimeFormat` in config and in AppState builder
+  - Merge branch 'feature/supplierProductUpgrade'
+  - Apply fixes from StyleCI
+  - Merge branch 'feature/supplierProductUpgrade' of https://github.com/laravel-enso/core into feature/supplierProductUpgrade
+  - small fix
+  - updated upgrade command
+  - Merge pull request #108 from y0net/patch-1
+  - Update CompaniesUpgrade.php
+  - Update CompaniesUpgrade.php
+  - Apply fixes from StyleCI
+  - wip
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - fixes #107
+  - Apply fixes from StyleCI
+  - adds new upgrade command
+  - adds data-import 4.2.5 changes to the upgrade command
+  - fixes company upgrade command
+  - fixes cleanup in versionings upgrade
+  - adds fixes companies upgrade
+  - adds missing import in companies upgrade
+  - updates enum dep
+  - Apply fixes from StyleCI
+  - adds ro addresses to upgrade
+  - removes versioning from deps
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - fixes versioningUpgrade
+  - Apply fixes from StyleCI
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - adds versionings unique constraint in upgrade command
+  - Apply fixes from StyleCI
+  - fixes upgrade command
+  - adds rememberable on user & groups
+  - Apply fixes from StyleCI
+  - - implements laravel-enso/enums - updates the upgrade command for 3.4.* - improves user & user group forms for easier customisation - refactors RequestValidators - renames resetDefaultPreferences to resetPreferences & setGlobalPreferences to storeGlobalPreferences & setLocalPreferences to storeLocalPreferences in User model - renames preferences permissions / routes to match new controller names - renames Set controller in Store for Preferences - refactors UserPolicy, deprecated update action is now split in changeGroup & changeRole - adds Relations, Rememberable & AvoidsDeleteConflicts traits to User - removes unused resources (images & sass)
+  - fixes upgrade command
+  - adds dynamic methods dep
+  - Merge pull request #104 from raftx24/adding_upgrade
+  - Update DatabaseUpgrade.php
+  - fixes user request validator
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - fixes email unique
+  - Merge pull request #106 from raftx24/adding_enums_package
+  - adding enums package
+  - Merge branch 'master' of https://github.com/laravel-enso/core
+  - fixes #105
+  - Update PeopleUpgrade.php
+  - fix codacy
+  - fix style
+  - fix styleci
+  - fix styleci
+  - adding upgrades
+  - Apply fixes from StyleCI
+  - updates upgrade command
+  - Merge pull request #103 from laravel-enso/jlsjonas-3.3-upgrade-sqlsrv-fix
+  - Update Upgrade.php
+  - Apply fixes from StyleCI
+  - Try to drop regular index too besides just foreign
+  - fixes password reset listener
+  - fixes empty text fields in form template
+  - fixes videos renaming in HowTo
+  - adds files renaming to upgrade
+  - adds back ro-addr table renaming
+  - - fixes `user-groups` binding - fixes `group_id` casting
+  - drops region column from ro-addresses
+  - removes deprecated Admin constat from UserGroup model
+  - - adds UserGroups enum - adds rename-migrations command
+  - adds migration renaming to the upgrade command
+  - removes language migration from the upgrade command
+  - updated the Upgrade command for company_person
+  - - adds a `websockets` section to app's state - adds the new `Roles` enum to app's state
+  - refactors table controllers
+  - - implements single responsibility controllers - refactors request validators - updates all deps - updates the upgrade command
+  - fixes password reset
+  - small refactor in default pref persisting
+  - adds rtl themes
+  - Merge pull request #100 from laravel-enso/jlsjonas-has-locale-preferences
+  - Apply fixes from StyleCI
+  - Update User.php
+  - lang not locale
+  - Apply fixes from StyleCI
+  - Implements HasLocalePreference & optimize imports
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - comments withoutExceptionHandling in usertest
+  - Apply fixes from StyleCI
+  - adds rtl support; ref enso-ui/ui#9; updates composer.json
+  - upgrades rememberable
+  - adds ioStatuses to state enums
+  - fixes mail theme
+  - refactor
+  - removes duplicate favico
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - improves password validator; renames isCurrentPassword to currentPasswordIs
+  - Apply fixes from StyleCI
+  - adds calendar
+  - removes unused themes
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - cleans up the scss assets
+  - updated readme
+  - Update README.md
+  - adds readonly to password fields to prevent autocomplete
+  - removes vuecomponents & add select in deps
+  - removes Horizon from AuthServiceProvider
+  - updates test for L5.8
+  - removes horizon
+  - updates composer.json
+  - moves FE assets to npm
+  - fixes password lifetime computor
+  - Merge pull request #93 from jlsjonas/support-laravel-websockets
+  - Update Notifications.vue
+  - Update IO.vue
+  - Update AppState.php
+  - adds requestManager
+  - removes themes.php merging. fixes laravel-enso/enso#191
+  - removes tenancy implications
+  - fixes tenant.vue
+  - Conditionally include custom host & port keys via Echo to Pusher-js
+  - adds support for FormData in tenantManager
+  - Fully configurable Pusher/Echo (laravel-websockets support)
+  - adds tenant selector
+  - removes console log, adds missing comma, semicolon
+  - refactors IO.vue; makes avatar not exportable in users table
+  - moved io to its own repo
+  - show missingKeys only when keyCollector is on
+  - adds horizon back
+  - removes horizon as a core dep
+  - always shows missing keys (incl 0) when the key collector is on
+  - adds missing TableCache trait; adds the new missingKeys component to navbar; enhances the __ helper to show the default key if no translation is available yet
+  - fix middleware registration
+  - updates horizon to 2.0
+  - adds multitenancy support; adds cached tables
+  - Merge pull request #92 from laravel-enso/feature/queryScopes
+  - addresses PR mentions, fixes typo
+  - adds query scope to user group, improves user policy
+  - adds company() helper for user
+  - updates default values for auth.php
+  - fixes is-naked
+  - fixes maxLoginAttempts implementation
+  - adds max login attempts; moves password customization in auth.php config
+  - fixes regex for password validator
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fixes migration
+  - Apply fixes from StyleCI
+  - adds custom password policy;
+  - fixes tutorial.vue's data() & removes arabic from date-fns
+  - fixes upgrade command
+  - - updates js file (new linter / rules) - includes manifest.js and vendor.js in index.blade.php to support vendor extraction - moves UserGroup pages to the publishing list
+  - fixes user profile when no bday provided
+  - fixes profile gender
+  - fixes profile builder
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fixes the upgrade command
+  - Apply fixes from StyleCI
+  - - updates the `Upgrade` command to take care of 3.3.* => ^3.4 upgrades - refactors the role change authorization in `UserController` - adds the `AdminGroupId` constant to the `UserGroup` model - adds the `belongsToAdminGroup()` helper to the `User` model - refines the user delete error messages - updates the `UserSeeder` - fixes a bug when having more than 2 level nested menus
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - updates composer.json
+  - Merge pull request #90 from jlsjonas/patch-7
+  - Add i18n to driver.js navigational buttons
+  - removes console.log
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fixes localisation; ref#87
+  - updated readme
+  - fixes dataimport status in upgrade command
+  - fixes IO for touch devices. removes unused overlay in notifications for touch
+  - fix io.remove()
+  - fixes IO
+  - small refactor in IO
+  - fixes document title not translating in Auth; ref#87
+  - Merge pull request #87 from jlsjonas/patch-6
+  - fixes store import in __.js
+  - updates import
+  - moves __.js to plugins; adds missing semicolon
+  - Update localisation.js
+  - fixes date-fns format helper
+  - updates Upgrade command
+  - registers the Upgrade command
+  - small refactor
+  - Apply fixes from StyleCI
+  - adds IO operations management; makes dataimport and companies mandatory
+  - Implement proposed changes + add `== null` check
+  - Fix spacing
+  - remove params parameter, no longer in use here
+  - removes deprecated Upgrade command; add translation for tutorials (fixes laravel-enso/tutorialmanager#15)
+  - updates date format for the new date-fns; check https://github.com/date-fns/date-fns/blob/master/docs/unicodeTokens.md
+  - eslint fixes
+  - Refactor __ logic (separate file, mixin import & clean store)
+  - updates vuedatatable and formbuilder
+  - fixes bug in search when redirecting to item route and the dropdown remained visible
+  - Edit localisation store to Support parameters in __
+  - Modify Mixin to Support parameters in __
+  - provides front-end feedback for unknown errors in errorHandler
+  - refactors auth form; fixes menu leave animation
+  - closes #84; fixes Bookmarks throwing errors before render
+  - fixes #83
+  - handles 419 Authentication Timeout; fixes #82'
+  - removes unused component from users/create
+  - fixes userGropu test
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - refactored the multiple select for roles
+  - updated readme; ref #72
+  - adds support for the wysiwyg field in themes
+  - fixes tags on dark theme
+  - fixes tutorial icon
+  - fixes default theme;
+  - replaces bulmaswatch with light / dark
+  - improves search behaviour
+  - improves search.vue
+  - hides the controls when the list of items is empty
+  - improves search's controls
+  - adds tag filtering for searchable
+  - closes #80
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fixes router page reload when accessing the same route with diff params
+  - Merge pull request #79 from StefanMitt/patch-1
+  - Login Remember Checkbox is now submitted to Server
+  - updates dropdown usage
+  - refactors user forms
+  - fixes last route navigation
+  - small refactor in default layout
+  - fixes bookmark bug on logout
+  - updates default preferences
+  - adds support for uploads
+  - adds a wip version of js enum
+  - fixes settings scroll
+  - updates user loggable format; adds fixed-width to menus; fixes aside scroll
+  - fixes route param for search
+  - removes dummy data from user form
+  - fixes #78
+  - Apply fixes from StyleCI
+  - - removes deprecated commands (`enso:update`, `enso:track-who:update`, `enso:filemanager:upgrade`) - renames `enso:clear-preferences` to `enso:preferences:clear` - renames `enso:update-global-preferences` to `enso:preferences:update-global` - adds an `enso:upgrade` command for v2.13.x - update forms, pages, tables and structure migrations - replaces in the store `implicitMenu` with `implicitRoute` - renames the route `core.index` to `core.home.index` - refactors the frontend sidebar / menu / menuItem components
+  - Merge pull request #77 from jlsjonas/patch-6
+  - closing tag (span) matches nothing
+  - adds margin-top to search results controls;
+  - improves search result template
+  - adds languageSeeder to the databaseSeeder
+  - Apply fixes from StyleCI
+  - small BE refactor; adds person name as loggable label for users
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fixes #76
+  - Merge pull request #73 from jlsjonas/patch-4
+  - Fix eslint issue
+  - improves menu animations
+  - removes unused code
+  - makes appelative and name sortable&searchable
+  - removes unused traits from UserGroup
+  - fixes navbar on touch
+  - - hides menu scroll bar - adds scroll to settings aside
+  - improves behaviour for bookmarks. now we can unstick the first sticky route when is single
+  - adds missing event in bookmarks middleware
+  - - improves the bookmarks -> now it takes only one row, has scroll with hidden scroll bar and auto reposition on page change - cleans the .page-content & .navbar classes/css - renames `setThemeParams` to `updateLayout` (store/layout)
+  - improves the seeders
+  - Merge pull request #71 from laravel-enso/userTest
+  - updates UserTest
+  - fix;
+  - - fixes user groups table template - adds has-background-light - updates the fonts for the clean theme
+  - Apply fixes from StyleCI
+  - - removes companies dependency - refactors the AppServiceProvider - adds Permission Group renaming in the Upgrade command - removes the `allowed` scope from User :) - removes duplicate tests
+  - removes unused var
+  - Apply fixes from StyleCI
+  - - adds the `Upgrade` command - transforms the old `Owner` into `UserGroup` - drops personal information from the users table, except the email needed for login - integrates the new `User` with `Person` - adds an `allowed` general scope on `User` that may be used for limiting access - adds missing `themes` config in `AppServiceProvider` - moves `teams` in a dedicated package - update BE & FE to work with the new `people` structure - adds `user_id` to fillable in `Preference` - improves user policy - removes the `ownerModel` from config - improves `UserFactory` - adds publishable `UserGroupFactory` - adds a default order for `Dashboard`, `Administration`, `System`, `Users` & `UserGroups` menus - renames `historyTabs` into `bookmarks` and enhances the store logic - drops for the moment support for the `Touch` layout - adds an `enums` key in vuex store - replaces the use of deprecated `$bus` with `$root` for vue events - refactors the notifications front-end logic - adds translations to typeahead labels in `Search.vue` - improves tests
+  - adds missing loading (data) in teams index
+  - makes history tabs clear button a button
+  - fixes historyTabs middleware
+  - improves history tabs behavior
+  - Apply fixes from StyleCI
+  - updates composer.json
+  - fixes editing while filtering; replaces store with updateOrCreate in the controller - as intended initially
+  - improves navbar search
+  - fixes breadcrumbs padding on mobile
+  - fixes route-control margins for navbar search
+  - adds searchable
+  - updates user & owner seeders; updates history to false in default preferences; adds created_at in user & owner table
+  - adds touch to excluded list for history tabs
+  - Merge pull request #69 from jlsjonas/patch-2
+  - Improve Gueststate's extensibility
+  - removes opacity from raises-on-hover
+  - improves the progress bar
+  - fixes controller import; removes project traits from user and owner
+  - ignores routes with guestGuard from historyTabs
+  - fixes team edit validation
+  - removes optional packages from composer.json
+  - renames index pages
+  - makes layout consistent; renames index pages
+  - fixes progress bar position
+  - integrates history tabs with vuex
+  - improves the history tabs -> adds clear control
+  - adds showQuote option to config
+  - fixes history tags translation
+  - fixes laravel-enso/vuecomponents#25
+  - adds draggable for history tabs
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - replaces intro.js with driver.js
+  - Apply fixes from StyleCI
+  - adds history mode
+  - ref laravel-enso/enso#142
+  - fixes burger
+  - fixes keeping the current route on page reload
+  - adds default logo
+  - fixes custom images path
+  - adds missing routes
+  - adds missing assets
+  - removes {any} from core :)
+  - adds web routes
+  - adds localState.js
+  - updates appfooter location
+  - adds missing assets
+  - adds horizon as a dependency
+  - brings in the dashboard structure; clean preferences.json
+  - adds touch layout. be sure to clear users preferences after install
+  - adds user and owner table migrations
+  - adds user and owner factories
+  - Apply fixes from StyleCI
+  - refactors/moves files from the project root
+  - fixes AuthServiceProvider name in composer.json
+  - moves UserPolicy to core;
+  - updates composer.json; fixes path to fileUploader
+  - improves progress bar
+  - removes deprecated method in profileBuilder
+  - removes unused return
+  - upgrade number format to use Intl
+  - fixes columns width for .is-reverse-mobile
+  - adds files icon; refactors users show page
+  - fixes auth controllers
+  - implements the new JsonParser helper
+  - updates unique-request-at-once-rule to ignore `get` requests
+  - updates files structure to match L5.7's flat resources folder
+  - improves toastr. adds toastr position in users preferences
+  - cleanup notifications
+  - ref laravel-enso/enso#136
+  - adds the $request in `sendResetLinkResponse` method
+  - adds the $request in `sendResetResponse` method
+  - updates composer.json
+  - brings in the auth controllers from root; adds the new progress-bar; refactors the store syntax
+  - fixes #65
+  - fixes update command for some edge cases
+  - back-end refactor. see CHANGELOG.md@v2.10.0 on the Enso repo
+  - fixes edge cases for filemanager upgrade command
+  - adds permission renaming in upgrade command
+  - fixes the dataimport upgrade
+  - refresh
+  - fix documents upgrade
+  - Apply fixes from StyleCI
+  - upgrade the file system
+  - wip
+  - adds clear notification event
+  - removes unused link
+  - adds notification control from mobile
+  - improves the notifications
+  - fixes missing args in vuex auth.js; fixes burger rotate on mobile
+  - updates vuedatatable
+  - improves users/show.vue
+  - extracted password strength in its own component; ref laravel-enso/enso#128
+  - adds icon for ActivityLog menu
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - improves Teams component
+  - Apply fixes from StyleCI
+  - adds activity log for teams
+  - adds activityLog
+  - improves navbar-menu items on touch - WIP notifications. Improves controls on Show.vue page
+  - fixes fontAwesomeIcon import
+  - updates composer.json
+  - upgrades FA to 5.2.x
+  - Merge pull request #64 from laravel-enso/fix-missing-favicon-cases
+  - removed sizes param
+  - fix inconsistent behavior re: favicon
+  - updated documentation with link to main docs; removed duplicated instructions
+  - cleans enso.scss
+  - 	Merge branch 'master' of https://github.com/laravel-enso/Core
+  - changes middleware order, impersonate is now ahead of verify route access
+  - changes middleware order
+  - major refactor for menus.vue; closes laravel-enso/enso#116
+  - refactors remains of the old avatar system
+  - refines the teams page responsiveness
+  - removes unused routes in teams structure
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fixes teams.js
+  - Apply fixes from StyleCI
+  - adds teams
+  - fixes routing to login when reloading page with an expired session
+  - fixes avatar import
+  - upgraded the avatar
+  - moves the owner and user test to the local project. update your phpunit.xml accordingly
+  - removes animation from app logo
+  - adds animated hamburger and notifications dropdown icon
+  - updates breadcrumbs for the new is-small
+  - updates the extensions.sass
+  - fixes footer background
+  - fixes navbar shadow
+  - fix reset pass view
+  - updates composer.json
+  - removes db rename reserved command
+  - fixes selected menu toggling on touch devices
+  - small refactor in notifications
+  - updates composer.json for thew new vuetable
+  - adds .unsubscribe class for email
+  - tweeked markdown email table css
+  - adds jessenger/date as req
+  - after password reset the user is redirected to the login page
+  - refactors the showQuote flag
+  - Merge pull request #62 from scottasmith/optional_login_quote
+  - Added showQuoteOnLogin to store from config option
+  - fixes initial login routing
+  - fixes middleware, login flow
+  - updates composer.json
+  - router refactor
+  - fixes reset pass and canAccess
+  - fix pass reset route
+  - small refinements
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - updates composer for the new impersonate
+  - Apply fixes from StyleCI
+  - updates BE, composer for the new action logger
+  - adds .is-reverse-mobile helper for columns
+  - prepares for howToVideo
+  - updates the body background color in enso mail theme
+  - fixes auth bug when not redirecting to login. small refactor in AppState
+  - adds the new markdown mail templates
+  - updates for the new structure manager; adds local state builder; refactors the guestStateController
+  - fixes missing redirect to login
+  - fixes localisation in auth views
+  - adds order to menu migration
+  - updates tests to handle the new config ownerModel option
+  - adds ownerModel option in config.php
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fixes tutorial.vue
+  - updated core commands in the docs
+  - updates the tutorial
+  - fixes type
+  - Apply fixes from StyleCI
+  - refactors the responsables. fixes #101
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - cleans the BE
+  - added unsubscribe link to the template footer
+  - Apply fixes from StyleCI
+  - refactors store. adds preferences module. supports now local preferences. closes laravel-enso/enso#17
+  - fixes laravel-enso/localisation#37
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fixes laravel-enso/enso#80
+  - updated readme
+  - updated publish commands
+  - optimized templates location, location and usage
+  - reword
+  - Merge pull request #60 from laravel-enso/new_email_notifications_template
+  - Apply fixes from StyleCI
+  - changed html layout
+  - extracted css into blade partial
+  - updated resources routes; updated publish flow
+  - movies user/owner migrations in Enso - #ref laravel-enso/enso#95
+  - broke templates down into components
+  - added back views load
+  - Merge branch 'new_email_notifications_template' of https://github.com/laravel-enso/Core into new_email_notifications_template
+  - fixed view template prefix
+  - Apply fixes from StyleCI
+  - added new template; composer update; publish all with tag `email-notifications`
+  - updates introJs use
+  - adds vue/html-indent to eslint
+  - adds styleci
+  - adds isSupervisor helper for user
+  - updates theme enum
+  - adds .is-reverse-mobile helper for columns
+  - removes app.scss from core
+  - adds canAccess for impersonate
+  - removes unused export structure
+  - adds a menu wrapper for verticall scroll
+  - Merge pull request #59 from mauthi/master
+  - fix
+  - adds vuedatatable to the composer.json
+  - removes vuedatatable from composer.json
+  - updates composer json
+  - fixes label of collapsed menu
+  - updates default flatpickr theme for clean
+  - improves Notifications
+  - fixes date-fns i18n
+  - closes #43
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - updates composer.json; refactors temporarily the preferences controller
+  - Merge pull request #58 from mauthi/master
+  - adds loading = false to ajax error handler
+  - added localisation function
+  - small refactor
+  - Merge pull request #1 from laravel-enso/master
+  - refactors to reduce complexity
+  - replaces ziggy with own implementation of `route` helpers
+  - closes #54. adds global `canAccess` helper
+  - closes #51, #53
+  - upgrades the theme switching system. integrates datepicker in base themes. ref laravel-enso/formbuilder#25
+  - fix flag icon in LanguageSelecotr
+  - Merge pull request #49 from cosimolemma/master
+  - Update Login.vue
+  - Update Login.vue
+  - Merge pull request #48 from mauthi/patch-1
+  - Add missing keys
+  - Apply fixes from StyleCI
+  - improves auth views localisation. closes laravel-enso/localisation#38
+  - the "__" helper is now a mixin. this allows cleaner auto-detection
+  - ref laravel-enso/localisation#38
+  - closes laravel-enso/localisation#35
+  - fixes menu scroll
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - removes log
+  - added issue template
+  - closes laravel-enso/localisation#32
+  - updates extensions.sass
+  - fixes laravel-enso/localisation#28
+  - small refactor in __.js
+  - removes charts from req
+  - fixes menu animation
+  - fix menu overflow-x
+  - updates for the new localisation
+  - adds collapsible menu
+  - revert warning to bulma's default
+  - fix another bug in locale.js
+  - closes laravel-enso/enso#76; fixes "addMissingKey"
+  - updates enso.js
+  - refactor enso js into dedicated modules. prepares structure for #45
+  - updates composer json for the new formbuilder
+  - adds selectors for tutorials
+  - fix debounce import for notifications
+  - adds hungarian flag
+  - closes #43; closes #44
+  - adds flag for mongolian laravel-enso/localisation#22
+  - fixes #64
+  - fixes laravel-enso/enso#56
+  - improves the reset component. fixes laravel-enso/enso#63
+  - removes unused publish
+  - moves the User & Owner structures to the main project
+  - fixes reset pass route
+  - adds route verification in auth.vue for non guest routes
+  - fixes publish path for form
+  - adds user/owner forms to publish. Now they are customizable
+  - fix reset pass flow
+  - removes deprecated keyMap from user edit view
+  - fixes owner form template
+  - updates the forms for the new VueSelect
+  - fixes #41
+  - closes laravel-enso/enso#54
+  - adds eg flag
+  - fixes laravel-enso/enso#52
+  - updates state builder for localisation 2.2.*
+  - lowered cyclomatic complexity by 1
+  - fixes reset.vue & auth.js
+  - improves routing; refactos vue files; fixes laravel-enso/enso#34; fixes laravel-enso/enso#38
+  - adds back the sidebar's shadow
+  - Merge pull request #40 from guastallaigor/add-br-icon-flag
+  - Changed class name from pt-br to br.
+  - Added Brazilian icon flag.
+  - fixes badge
+  - fixes scss
+  - fixes laravel-enso/enso#48
+  - removes unused helpers.scss class; adds is-radiusless class
+  - fixed timeFromNow.js
+  - refactors users show.vue; uses tree-shaking for date-fns
+  - fixes user JSON template
+  - updates the owner test
+  - removes old command - update user agent
+  - fixes laravel-enso/enso#40
+  - fixes owners/edit.vue
+  - updates card / form / vuetable use
+  - adds html5 doctype
+  - improves the use of css-flag-icon
+  - updates composer.json
+  - destructures scope-slot props
+  - positiones footer with flex instead of js
+  - fixes composer.json
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - refactors the loginListener. Changes user_agent column to text
+  - updated vue select import path
+  - fixes core.index migration
+  - fixes login.vue email error reporting
+  - fixes laravel-enso/enso#39
+  - fixes #37
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - hljs directive is no longer global
+  - Merge pull request #36 from neomobil/master
+  - Update VerifyActiveState.php
+  - Merge pull request #1 from neomobil/neomobil-patch-1
+  - Security bug
+  - adds zxcvbn for measuring password complexity
+  - fixes auth views error reporting
+  - fixes enso.scss
+  - fixes transitions
+  - adds extendedDocumentTitle to the config. minor refactors for router.js, store.js
+  - replaces moment.js with date-fns
+  - fixes enso.js
+  - fix fa5 import; removes lodash; replaces toaster with the new $toastr instance method
+  - upgrades fa5 use. removes .DS_STORE
+  - updates composer.json
+  - fixes vueSelect import
+  - two columns for the owners form
+  - upgrade to fa5
+  - fixes composer.json
+  - removes errors.js class
+  - removes explicit restrictions from migrations
+  - adds HasRole trait to Owner;
+  - fixes store; refactors test
+  - Apply fixes from StyleCI
+  - major refactor for the new Form and Select packages;
+  - fixes max-media for tablet
+  - refactors layout; adds user menu on touch devices;
+  - Apply fixes from StyleCI
+  - owner is by default  active in create form; renames login listener; cleans migrations; fixes redirect to login page after logout;
+  - Apply fixes from StyleCI
+  - removes EnsoException; removes unused ProfiePageController / RequestValidator / route; updates the js errorHandler to aler the custom 555 error code;
+  - adds addresses to owner
+  - adds .button.is-naked
+  - removes old ios-switch;
+  - adds Raven for the FE
+  - fix login error toastr
+  - renames app service provider; relocates js assets
+  - fix avatar.id in show.vue
+  - fixes ios-switch css
+  - fix composer.json
+  - ads v-tooltip
+  - fixes buttons order in index table; brings back badges in footer
+  - adds new formbuilder
+  - removes old dt
+  - removes misplaced container from views
+  - fixes #35
+  - updates composer.json
+  - Apply fixes from StyleCI
+  - adds .styleci.yml
+  - Apply fixes from StyleCI
+  - added labels for addresses
+  - fix laravel-enso/enso#19
+  - Apply fixes from StyleCI
+  - closes #19
+  - Merge pull request #34 from nnnms/master
+  - Use more strict SQL syntax to fix work with PostgreSQL
+  - updates vuedatatable dep
+  - renamed vuedatatable
+  - uses npm for bulma-extensions
+  - improves notifications component
+  - fix eslint
+  - fix form template
+  - fix composer.json
+  - fixes table templates
+  - Apply fixes from StyleCI
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - adds vue-datatable lib
+  - Apply fixes from StyleCI
+  - removes js-cookie
+  - refactors auth forms; fixes z-index for main-content;
+  - fix modal not showing correct when is not in direct html/body root
+  - Apply fixes from StyleCI
+  - adds 429 in vue error handler. adds ravenKey
+  - fix laravel-enso/enso#9
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - implements eslint with airbnb. removes localisation files
+  - Apply fixes from StyleCI
+  - closes laravel-enso/enso#11
+  - Apply fixes from StyleCI
+  - fix #9
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - updates composer.json
+  - updated default user email
+  - updated documentation
+  - fix form multiselect
+  - updated documentation
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - updates scope to slot-scope for vue2.5
+  - fixes notification lazy loading
+  - adds spanish lang file for DataTable
+  - fix composer.json
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fix composer.json
+  - updated readme to warn about soon to be updated documentation
+  - fix session expire issue
+  - Apply fixes from StyleCI
+  - refactor error handling in js
+  - fix ios-switch when disabled
+  - the menu bar starts collapsed on mobile/tablet
+  - adds v-click-outside for dropdowns
+  - fix error reporting in auth componenents. fix error reporting in axios interceptor. fix VerifyActiveState middleware
+  - refactor. menu is expanded on page reload
+  - fix token in password reset component
+  - refactor the login flow. Refactor page reload
+  - Apply fixes from StyleCI
+  - ads Reset.vue component for password reset.
+  - creates a routes structure in the store, removed the @route blade directive
+  - fix store.js. fix init route
+  - Apply fixes from StyleCI
+  - refactor routes. rollback to laravel auth with session and csrf. fixes #4
+  - Apply fixes from StyleCI
+  - before jwt auth rollback
+  - Apply fixes from StyleCI
+  - adds the VerifyXMLHttpRequest middleware
+  - fixed lower case import
+  - removed unused views
+  - Apply fixes from StyleCI
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - move routes to api.php, add the api prefix. Fix tests. Fix pages,routes and modules
+  - added sass folder that got lost in the conversion | cleaned up sass folder to exclude app.js; removed pusher key from blade
+  - removes unused style inclusion
+  - uses RefreshDatabase Trait in tests. fix structure migrations menu link. small refactor in home.index.blade
+  - fix NotFound.vue name
+  - fix NotFound.vue name
+  - Apply fixes from StyleCI
+  - fix tests
+  - Fix EnsoException. Added ConflictHttpException in OwnerService
+  - Apply fixes from StyleCI
+  - Fix Tests. Refactor EnsoException to use the L5.5 render method. Fix translations.
+  - fix composer.json
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - removed unused var in StateBuilder
+  - Apply fixes from StyleCI
+  - add StateBuilder to Classes. Add init route. Remove unused TranslationController
+  - fix composer.json
+  - fix composer.json
+  - fix composer.json
+  - removed unused var
+  - fix composer.json
+  - Apply fixes from StyleCI
+  - fix merge conflicts
+  - SPA upgrade
+  - bumped up laravel dependency to 5.5
+  - removed create_structure_for_dashboard
+  - added animate.css
+  - added components back
+  - replaced background
+  - added paginate to enso.js
+  - added tabs in enso.js and tabs examples
+  - added vue2-animate
+  - added disabled status for ios-switch
+  - Apply fixes from StyleCI
+  - fixed user create
+  - Apply fixes from StyleCI
+  - major refactor with is_active casted as bool, getOptionsList changed to getOptionList for all selects, ios-switch css fix for form-group, labels added for the new vue-select, defaults.js added and available for publishing, css/js cleanup and more
+  - removed outline on focus from bootstrap select
+  - removed unused attribute from blades
+  - added viewIs asserts in tests
+  - mocked user reset password notification in test
+  - Apply fixes from StyleCI
+  - added delete / icon to forms. updated tests'
+  - fix tests
+  - updated enso.js
+  - Apply fixes from StyleCI
+  - implemented the new formbuilder
+  - fix auth scss. added particles.scss for background customisation
+  - fix composer.json
+  - Apply fixes from StyleCI
+  - refactor sass/js structure. removed vue components;
+  - added UserSelectController, routes and structure details
+  - simplified the http/services
+  - fix composer.json
+  - updated to 1.2
+  - Apply fixes from StyleCI
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - major refactor. version upgrade
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - updated readme to include config/labels. Added missing core-js publish tag
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - removed unused prop
+  - Apply fixes from StyleCI
+  - added Totals
+  - Apply fixes from StyleCI
+  - updated modal/doc/comm labels
+  - fix modal
+  - Apply fixes from StyleCI
+  - upgraded modal. added labels config file
+  - fix pref.json
+  - upgraded Dashboard. changed preferences.json
+  - Apply fixes from StyleCI
+  - test 2
+  - test styleci
+  - fix " in auth.js
+  - updated datepicker component
+  - Apply fixes from StyleCI
+  - added genericErrorMessage to Store.labels
+  - added DbSyncMigration service provider
+  - updated partials.env
+  - Apply fixes from StyleCI
+  - fix migrations. added env label
+  - removed unused code in users.index.blade
+  - updated composer.json for package auto discovery. refactor routes
+  - minor refactor. removed unused datatable options
+  - refactored UsersExportJob
+  - fixed storage .gitignore
+  - added set-language middleware to home.translations
+  - Apply fixes from StyleCI
+  - updated Dashboard component. Added TranslationController. closes #30, #31
+  - added favicon to home page
+  - fix owners edit view to show commentables only in tests instances
+  - fix readme. added apple touch icons
+  - updated favicon.ico
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fix bug, added missing argument to login mutator
+  - Apply fixes from StyleCI
+  - fix favicon.ico. closes #29
+  - updated formatting
+  - added tags
+  - fix verify-active-state middleware name registration. Moved profile-update policy to a Gate. Small refactor in CoreServiceProvider. Updated show blade
+  - Apply fixes from StyleCI
+  - excluded role_id from fillable. updated Tests
+  - Apply fixes from StyleCI
+  - Merge pull request #27 from laravel-enso/tests
+  - deleted old files
+  - Merge branch 'tests' of https://github.com/laravel-enso/Core into tests
+  - updated tests
+  - tests
+  - updated requirements
+  - reordered
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - updated doc
+  - added imagetransformer service provider
+  - removed unused variable in ValidateProfilePageRequest
+  - closes #24. upgraded avatarId and preferences to the new helper getters
+  - added modal to comments demo
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - closes #25
+  - fix to include profile page avatar photo not updated on change
+  - fix wrong avatar on the profile page, when view-ing someone else s profile. Closes #24
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - added Notifiable back
+  - Apply fixes from StyleCI
+  - removed Notifiable from User
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - updated dashboard charts layout
+  - Apply fixes from StyleCI
+  - updated ProfilePageController, VPPR
+  - removed console.log
+  - removed unused view. conditionally added commments and documents components for testing purposes
+  - updated docs and tags
+  - User model uses the ActionLogger trait now
+  - removed misplaced component. renamed UserPolicy
+  - closes #22
+  - fix #21
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - updated directory separator for users report. updated layouts app css include to support versioning.
+  - updated readme and fixed typo
+  - commented vue components
+  - fixed users.show avatar refresh when uploading/deleting avatar. fixed partials.flash when rendering EnsoException
+  - added getLanguageAttribute to User model
+  - updated default lang for admin to en
+  - added description to fillable
+  - added description to owners
+  - removed unused variable in preferencesController. called cleanUp() after users export
+  - added description for Owner. Refactored UserReport. added comments and documents components in owner edit view, for testing
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fix avatars service provider importing
+  - Apply fixes from StyleCI
+  - fixed type in generate users report
+  - Apply fixes from StyleCI
+  - merge
+  - major update. things are synced now
+  - Apply fixes from StyleCI
+  - updated laravel-enso config with formattedTimestaps attribute. update export users job. implemented formattedTimestamps trait. updated can(access-route) policy
+  - updated for the new structure manager
+  - extracted structure manager to its own package
+  - fix composer.json
+  - added delete to OC@destroy
+  - fix UC@store
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fixes
+  - Apply fixes from StyleCI
+  - fixed validateOwnerRequest for patch
+  - fix UC@store
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - used facade in UC@store
+  - Apply fixes from StyleCI
+  - added transaction for user store
+  - imported the user in generateUserExportJob
+  - fix created_at property name in users.show
+  - fix type on preferences structure creator
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - removed old page length menu for users table
+  - Apply fixes from StyleCI
+  - fixed error message when deleting owners
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fixed sidebarCollapse
+  - added rule to validateOwnerRequest
+  - Apply fixes from StyleCI
+  - fix resetPasswordNotification
+  - renamed ActionHistory in ActionLog
+  - renamed accesRoute to access-route
+  - corrected Owner model include in Owners Controller
+  - Apply fixes from StyleCI
+  - done prepping for release
+  - fix composer.json
+  - Apply fixes from StyleCI
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - done refactoring for v1.1.x
+  - wip
+  - Apply fixes from StyleCI
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - wip 1.1.x
+  - wip building Enso
+  - Apply fixes from StyleCI
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - wip
+  - Apply fixes from StyleCI
+  - wip upgrade to 1.1.x
+  - updated readme
+  - fix composer.json
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - updated readme
+  - Apply fixes from StyleCI
+  - added user agent to the logins table
+  - fixed avatar request attr name
+  - datepicker fix
+  - replaced "Autentificare" with "Login"
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fix for missing update when clearing input value
+  - improved datepicker.vue
+  - commented error route closure
+  - Apply fixes from StyleCI
+  - added update tag for publishing
+  - fix dashboard. added timeFromNow filter in bootstrap.js. Improvements in main.scss.
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fixed menu deletion in StructureDestroyer
+  - Apply fixes from StyleCI
+  - updated laravel mix
+  - fixed css, modal
+  - Apply fixes from StyleCI
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - added form-control error underline
+  - added $errorBag array to EnsoException
+  - cascade in create preferences table
+  - replaced children with children_list attribute for menu.php
+  - Apply fixes from StyleCI
+  - added getChildrenAttribute to Menu model
+  - added cursor:pointer in InputClear.vue. Removed resize:none for textarea in main.scss
+  - fix in structureDestroyer
+  - aded polyfill for Object.assign(), Object.keys() and Array.find()
+  - fix datepicker
+  - removed unused var in datepicker.vue
+  - removed polyfill
+  - fix
+  - menuReorder: fixed template and translated
+  - implemented fileUploader in users.show
+  - added FileUploader.vue
+  - fixed structure migration rollback
+  - removed StatisticsController
+  - updated VUR
+  - Merge pull request #18 from laravel-enso/analysis-XZG6kN
+  - Apply fixes from StyleCI
+  - fix files path in config
+  - Merge pull request #17 from laravel-enso/analysis-8m97L7
+  - Apply fixes from StyleCI
+  - fix service provider
+  - Merge pull request #16 from laravel-enso/analysis-X0W3xj
+  - Apply fixes from StyleCI
+  - added Dashboard structure to publish list
+  - Merge pull request #15 from laravel-enso/analysis-qxePey
+  - Apply fixes from StyleCI
+  - added needed Enums to classes publish list. Corrected tag for error-views. New background
+  - upgraded the modal. new options in laravel-enso config file. VerifyRouteAcces Logs now unauth attempt for routes.
+  - added level to EnsoException;
+  - Merge pull request #14 from laravel-enso/analysis-qvmanl
+  - Apply fixes from StyleCI
+  - added EnsoException class and Facade
+  - fix error pages. updated config to support new logmanager. added routeNotificationForSlack in User model
+  - renamed pusher_key to pusher_app_key in .env
+  - added vue2-animate
+  - fix js tag for publish
+  - Merge pull request #13 from laravel-enso/analysis-zYWkDv
+  - Apply fixes from StyleCI
+  - refactor local page js
+  - fix page titles
+  - Merge pull request #12 from laravel-enso/analysis-8K3l39
+  - Apply fixes from StyleCI
+  - fix UserExportJob: it now deletes the file after mail send
+  - removed \Log:: from middleware
+  - fixed export route path
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fixed ResetPasswordNotification
+  - fix nprogress shaddow fix avatar relationship to user model
+  - Merge pull request #11 from laravel-enso/analysis-8QrYKP
+  - Apply fixes from StyleCI
+  - added index to "name" attribute in migration
+  - fixed impersonat implementation. Now the user impersonation has the access rights of the impersonated user.
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - rename migrations
+  - Merge pull request #10 from laravel-enso/analysis-q13vNN
+  - Apply fixes from StyleCI
+  - renamed service providers. updated readme
+  - fix providers
+  - fix cfg
+  - fixes
+  - implemented config(auth.providers.users.model)
+  - fixes
+  - fix app namespace
+  - fixed sidebar.vue
+  - fix mainCss
+  - removed admin-lte from app.js
+  - fix css
+  - implemented ios style switches. corrected admin lte theme load. improved sidebar.vue so the page will reload only on language change. removed admin-lte from require in js.
+  - fix readme/composer.json
+  - fix readme. fix default user migration
+  - Merge pull request #9 from laravel-enso/analysis-z33E9A
+  - Apply fixes from StyleCI
+  - fixed system/menu views path. Fixed and renamed AvatarController. Added storage folders to publised resources
+  - fix service providers
+  - fix composer.json
+  - integrated child packages service providers
+  - fix _variables.scss
+  - fixes
+  - fixed composer.json. Fixed users and owners table migrations
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - fix composer.json
+  - Merge pull request #8 from laravel-enso/analysis-z9Z0ga
+  - Apply fixes from StyleCI
+  - fixed unused variables
+  - refactor User & Owner
+  - before user and owner refactor
+  - fix parentheses in gulpfile.js
+  - added gulpfile.js, package.json, composer.json and webpack.min.js
+  - Merge pull request #7 from laravel-enso/analysis-z9Z0Pw
+  - Apply fixes from StyleCI
+  - fix camel case vars
+  - Merge pull request #6 from laravel-enso/analysis-8jvM77
+  - Apply fixes from StyleCI
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - Fixed bug in RolesController where you could choose a parent menu as the default access menu of role.
+  - Merge pull request #5 from laravel-enso/analysis-8jvyPR
+  - Apply fixes from StyleCI
+  - implemented ViewComposers for main view and breadcrumbs partial. Refactor on main view variables names.
+  - fixed ActionHistory
+  - fix datatables directories
+  - fix datatables folder name
+  - fix composer.json
+  - fix composer
+  - fix composer.json
+  - Merge pull request #4 from laravel-enso/analysis-zeL4kr
+  - Apply fixes from StyleCI
+  - fix in MenuGenerator
+  - fix in AppServiceProvider
+  - codacy fixes
+  - fixed enso-select
+  - Merge pull request #3 from laravel-enso/analysis-86266P
+  - Apply fixes from StyleCI
+  - corrected path structure. major refactor. Implemented StructureManager
+  - fixed ununsed code
+  - sync
+  - fix migrations
+  - Merge branch 'master' of https://github.com/laravel-enso/Core
+  - readme
+  - Merge pull request #2 from laravel-enso/analysis-8A3Q2V
+  - Apply fixes from StyleCI
+  - readme
+  - major refactor
+  - fix composer.json | favicon | codacy errors
+  - Merge pull request #1 from laravel-enso/analysis-zYWK7y
+  - Apply fixes from StyleCI
+  - first commit
+
