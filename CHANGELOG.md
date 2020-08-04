@@ -1,3 +1,6 @@
+## 0.2.0 (August 04, 2020)
+
+
 ## 0.1.0 (August 04, 2020)
   - Merge pull request #161 from laravel-enso/hotfix/fixesDeletedRoute
   - fixed resetPassword; added risky
